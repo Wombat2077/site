@@ -1,7 +1,7 @@
 @echo off
 if %1 == run (
     .venv\Scripts\activate.bat
-    python -m sanic server:server %2 %3
+    python -m sanic server:server %2 %3 
     goto end
 )
 if %1 == install (
